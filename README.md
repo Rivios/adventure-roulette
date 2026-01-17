@@ -1,1 +1,34 @@
 # adventure-roulette
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Keep your .gamma-card and .lightning-bolt CSS here! */
+        .gamma-card { transition: all 0.3s ease; }
+        .gamma-card:hover, .gamma-card:active { transform: translateY(-10px); }
+    </style>
+</head>
+
+<body class="bg-slate-50">
+
+    <header class="py-20 text-center bg-blue-600 text-white">
+        <h1 class="text-5xl font-bold">My Greece Journey</h1>
+        <p class="mt-4 text-xl">August 2026 • 10 Days of Adventure</p>
+    </header>
+
+    <main class="max-w-4xl mx-auto py-12 px-4">
+        
+        <div class="gamma-card bg-white rounded-3xl p-8 shadow-lg border border-slate-100 mb-8">
+            <h2 class="text-3xl font-serif italic mb-4">Day 01: Athens Arrival</h2>
+            <p class="text-slate-600">Land in Athens, check into the hotel, and prep for the sunset at the Parthenon.</p>
+            
+            <div class="mt-6 flex items-center gap-2 text-yellow-500">
+                <i class="fas fa-bolt lightning-bolt"></i>
+                <span class="text-slate-500 font-bold">Pro Tip: Wear comfy shoes!</span>
+            </div>
+        </div>
+
+    </main>
+    </body>
+</html>
